@@ -98,8 +98,12 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
 }
+#home2{
+    display: flex;
+    flex-direction: row;
+   }
 .home {
-     width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center; 
     align-items: center;
@@ -109,6 +113,18 @@ textarea {
     margin: 10px;
     background-color: #a8c4d7;
     border-radius: 26px;
+}
+.home3 {
+    width: 100%;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   flex-direction: column;
+   gap: 30px;
+   padding: 10px;
+   margin: 10px;
+   background-color: #a8c4d7;
+   border-radius: 26px;
 }
 
 * {
@@ -128,7 +144,8 @@ textarea {
     display: flex;
     justify-content: center;
      flex-direction: column;
-     align-items: left;
+     align-items: center;
+     /* align-items: left; */
     background-color: #a8c4d7;
     border-radius: 26px;
     background-color: #a8c4d7;
@@ -155,15 +172,17 @@ textarea {
   }
   .faq-item {
     margin-bottom: 1em;
-    display: flex;
+    width: 100%;
+ 
     text-align: justify;
+    align-items: center;
   }
   
   .faq-question {
     background-color: #1ca4d1;
     border: none;
-    width: 50%;
-    text-align: left;
+    width: 100%;
+   
     padding: 1em;
     font-size: 1.2em;
     cursor: pointer;
@@ -174,7 +193,7 @@ textarea {
     background-color: #fafafa;
     padding: 1em;
     border: 1px solid #ddd;
-    width: 50%;
+  
   }
 
 
@@ -371,5 +390,10 @@ textarea {
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
-
-  
+@media (max-width:800px) {
+   #home2{
+    display: flex;
+    flex-direction: column;
+   }
+   
+}

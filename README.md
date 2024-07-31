@@ -25,7 +25,7 @@
 
                 or  
 #first time nltk_util.py file run 
-remove "nltk.download('punkt')" from comment after successfully execute make it in comment
+remove "nltk.download('punkt')" from comment; after successfully execute make it comment
 
 # Step:3 Modify intents.json
 Modify intents.json with different intents and responses for your Chatbot
